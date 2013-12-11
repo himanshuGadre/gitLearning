@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <head>
+        
+        <title>NavBar Responsive</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+        
+<link href="css/style_navBar.css" rel="stylesheet">
+        
+    </head>
+    <body>
+         <div class="pageWrapper">
+             
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <div class="container">
+                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+
+                        <a href="#" class="brand">Logo Name</a> 
+
+                        <div class="nav-collapse collapse">
+                            <ul class="nav">
+                                <li class="active"><a href="#">Home</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                            </ul>                  
+                        </div><!-- nav-collapse ends -->
+                    </div><!-- container ends -->
+                </div> <!--navbar-inner ends -->
+            </div> <!--navbar ends -->
+             
+         </div><!-- pageWrapper ends -->
+
+       <!-- <script src="js/bootstrap.js"></script>  NAvbar was collapsing/opening even after this line was deleted.-->
+
+	    <script src="js/jquery-1.10.2.js"></script>
+	   <script src="js/bootstrap-transition.js"></script> <!-- Deleting this line, the easy opening of NavBar is Lost, but slideup effect was not affected.-->
+		<script src="js/bootstrap-collapse.js"></script> <!-- THis line is most Important for proper Responsive Nav Bar. After Deleting this line, navbar will not collapse at all.-->
+    </body>
+</html>
