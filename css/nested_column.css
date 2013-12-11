@@ -1,0 +1,26 @@
+/* css */
+
+.pageWrapper {
+
+}
+.row {
+	/*min-height: 10px;*/
+	/*background: #222;*/
+}
+.show-grid {
+	/*margin: 10px 0 20px -20px;*/
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.span1,.span2,.span3,.span4,.span5,.span6,.span7,.span8,.span9,.span10,.span11,.span12 {
+	/*min-height: 40px;*/
+	line-height: 40px;
+	background: #ddd;
+	text-align: center;
+}
+
+.container {
+	background: #aed8f9;
+	background: #80c4f9;
+}
